@@ -1,0 +1,51 @@
+{
+	border:0px 
+	solid #eee;
+	margin:0;
+	padding:0;
+}
+
+#blog
+{
+	float:right;
+	margin: -40px 0px 30px 500px; /*top right bottom left*/
+}
+
+#dl
+{
+	float:right;
+	margin: 0px 0px 30px 300px; /*top right bottom left*/
+}
+}
+
+h1
+{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;	
+	color: #CBD633;
+	float:center;
+}
+
+h2
+{
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;	
+	color: #37BFE8;
+	float:center;
+}
+
+h3
+{
+	color: #37BFE8;
+}
+
+body
+{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:15px;
+	color:#5F6060;
+
+}

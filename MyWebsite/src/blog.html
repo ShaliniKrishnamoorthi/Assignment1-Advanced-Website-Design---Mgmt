@@ -51,5 +51,46 @@
         <img src="../img/PykaraFalls.jpg"  width="400" height"400" alt="Me on vacation" border=""/>
         <img src="../img/TeaPlantations.jpg"  width="400" height"400" alt="Me on vacation" border=""/>
 
+         <form action="dummy.php" method="POST" novalidate>
+            <font face="'Brush Script MT', cursive" size = "6" color="yellow">
+            Your feedback is much appreciated :). <br>
+            <label for="nameField"> Your name : </label>
+            <input id="nameField" type="text" name="userName" placeholder="Your Name" />
+            <br>
+            <!-- <input type="text" name="userName" value="This is readonly" /> -->
+            <!-- <input type="email" validate />  //check hot this works -->
+            <label for="likeField"> Did you like it?</label>
+            <input  name="likeField" type="radio" value="like" checked>Yes
+            <input  name="likeField" type="radio" value="unlike" >No
+            <br>
+            
+
+            <label for="SubscribeField"> Would you like to Subscribe?</label>
+            <input id="SubscribeField" type="checkbox" checked />
+            <br>
+
+            <!-- <input type="color" /> -->
+            <label for="dateField"> Please enter the date</label>
+            <input id="dateField" type="date" />
+            <br>
+            <label for="emailField"> Email ID:</label>
+            <input id="emailField" type="email" />
+            <br>
+
+            <label for="RateField"> How would you like to rate it? (1 being the Best)</label>
+            
+            <select id="RateField">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+            <br>
+            <label for="CommentField">  Please leave your comments here!</label>
+            <textarea id="CommentField"></textarea>
+            <input type="submit" value="submit"/>
+        </font>
+        </form>
     </body>
 </html>
